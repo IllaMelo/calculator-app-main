@@ -148,7 +148,7 @@
     background-color: var(--Red);
   }
 
-  input[type="text"]{
+  #input{
     display: flex;
     padding: 1rem;
     text-align: end;
