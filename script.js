@@ -11,8 +11,26 @@
   }
 
   function colorTheme(){
+
+    if (ran.value == "1"){
+      document.documentElement.style.setProperty('--body-background', 'hsl(222, 26%, 31%)');
+      document.documentElement.style.setProperty('--input-range-ball', 'hsl(6, 63%, 50%)');
+      document.documentElement.style.setProperty('--display-container', 'white');
+      document.documentElement.style.setProperty('--input-range-background', 'hsl(223, 31%, 20%)');
+      document.documentElement.style.setProperty('--input', 'hsl(224, 36%, 15%)');
+      document.documentElement.style.setProperty('--input-html-color', 'white');
+      document.documentElement.style.setProperty('--grid-container', 'hsl(223, 31%, 20%)');
+      document.documentElement.style.setProperty('--button-color', 'hsl(224, 28%, 35%)');
+      document.documentElement.style.setProperty('--button-shadow', 'hsl(221, 14%, 31%)');
+      document.documentElement.style.setProperty('--delete-reset-background', 'hsl(222, 26%, 31%)');
+      document.documentElement.style.setProperty('--delete-reset-color', 'white');
+      document.documentElement.style.setProperty('--equity-background', 'hsl(6, 63%, 50%)');
+      document.documentElement.style.setProperty('--equity-color', 'white');
+      document.documentElement.style.setProperty('--button-background', ' white');
+
+    }
   
-      if (ran.value == "2"){
+     else if (ran.value == "2"){
         document.documentElement.style.setProperty('--body-background', 'hsl(0, 0%, 90%)');
         document.documentElement.style.setProperty('--input-range-ball', 'hsl(25, 98%, 40%)');
         document.documentElement.style.setProperty('--display-container', 'black');
@@ -47,23 +65,7 @@
         document.documentElement.style.setProperty('--equity-color', 'hsl(268, 71%, 12%)');
         document.documentElement.style.setProperty('--button-background', ' hsl(268, 47%, 21%)');
       }
-      else if (ran.value == "1"){
-        document.documentElement.style.setProperty('--body-background', 'hsl(222, 26%, 31%)');
-        document.documentElement.style.setProperty('--input-range-ball', 'hsl(6, 63%, 50%)');
-        document.documentElement.style.setProperty('--display-container', 'white');
-        document.documentElement.style.setProperty('--input-range-background', 'hsl(223, 31%, 20%)');
-        document.documentElement.style.setProperty('--input', 'hsl(224, 36%, 15%)');
-        document.documentElement.style.setProperty('--input-html-color', 'white');
-        document.documentElement.style.setProperty('--grid-container', 'hsl(223, 31%, 20%)');
-        document.documentElement.style.setProperty('--button-color', 'hsl(224, 28%, 35%)');
-        document.documentElement.style.setProperty('--button-shadow', 'hsl(221, 14%, 31%)');
-        document.documentElement.style.setProperty('--delete-reset-background', 'hsl(222, 26%, 31%)');
-        document.documentElement.style.setProperty('--delete-reset-color', 'white');
-        document.documentElement.style.setProperty('--equity-background', 'hsl(6, 63%, 50%)');
-        document.documentElement.style.setProperty('--equity-color', 'white');
-        document.documentElement.style.setProperty('--button-background', ' white');
-
-      }
+   
   
     
   }
